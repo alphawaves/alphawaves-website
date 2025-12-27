@@ -1,0 +1,85 @@
+/* about.css - Styles specific to the About page */
+
+.about {
+  color: var(--text-primary);
+  margin-top: 0;
+  text-align: left;
+}
+
+.about h1 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 3.5rem;
+  font-weight: 400;
+  margin-bottom: 32px;
+  text-align: left;
+  color: var(--text-primary);
+  letter-spacing: -0.01em;
+}
+
+.about h2 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 2rem;
+  font-weight: 500;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  color: var(--text-primary);
+  letter-spacing: -0.01em;
+}
+
+.about .subtitle {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: var(--text-secondary);
+  margin-bottom: 60px;
+  text-align: left;
+  display: block;
+  font-style: italic;
+  line-height: 1.7;
+}
+
+.about p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.05rem;
+  font-weight: 300;
+  line-height: 1.9;
+  margin-bottom: 24px;
+  color: var(--text-primary);
+  letter-spacing: 0.2px;
+}
+
+.about ul {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.05rem;
+  font-weight: 300;
+  line-height: 2;
+  color: var(--text-primary);
+  margin-left: 0;
+  margin-bottom: 30px;
+  padding-left: 20px;
+  list-style-type: none;
+}
+
+.about ul li {
+  margin-bottom: 14px;
+  position: relative;
+  padding-left: 24px;
+}
+
+.about ul li:before {
+  content: "—";
+  position: absolute;
+  left: 0;
+  color: var(--text-secondary);
+}
+
+.about a {
+  color: var(--text-primary);
+  text-decoration: none;
+  border-bottom: 1px solid var(--text-primary);
+  transition: opacity 0.2s ease;
+}
+
+.about a:hover {
+  opacity: 0.6;
+}
