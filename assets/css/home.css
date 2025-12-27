@@ -1,0 +1,61 @@
+/* home.css - Styles specific to the Home page */
+
+/* Override main-content for home page to allow wider hero */
+.hero + .content-section {
+  margin-top: 80px;
+}
+
+.content-section {
+  max-width: 700px;
+  margin: 0 auto 80px auto;
+  padding: 0 24px;
+}
+
+.content-section h2 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 2.2rem;
+  font-weight: 500;
+  margin-bottom: 24px;
+  color: var(--text-primary);
+  letter-spacing: -0.01em;
+}
+
+.content-section p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.05rem;
+  font-weight: 300;
+  line-height: 1.9;
+  margin-bottom: 20px;
+  color: var(--text-primary);
+  letter-spacing: 0.2px;
+}
+
+.content-section p strong {
+  font-weight: 600;
+}
+
+.section-intro {
+  font-size: 1.15rem !important;
+  color: var(--text-secondary) !important;
+  margin-bottom: 32px !important;
+}
+
+/* Capability blocks */
+.capability {
+  margin-bottom: 32px;
+  padding-left: 24px;
+  border-left: 2px solid var(--border-color);
+}
+
+.capability h3 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin-bottom: 8px;
+  color: var(--text-primary);
+}
+
+.capability p {
+  margin-bottom: 0;
+  color: var(--text-secondary) !important;
+}
